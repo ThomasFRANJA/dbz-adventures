@@ -1,0 +1,26 @@
+// .header {
+//   display: none;
+//   &-container{
+//     position: relative;
+//     display: inline-block;
+//   }
+//   &-container::after{
+//     content:'';
+//
+//     position: absolute;
+//     top: 50%;
+//     left:50%;
+//     width: 59px;
+//     height: 100px;
+//     // background: url('../img/goku.png');
+//     // transition: background 1s steps(3),infinite;
+//   }
+//   &-container:hover::after{
+//     animation: goku 1s steps(3) infinite;
+//   }
+//
+//   @keyframes goku{
+//     from{background-position: 0 0;}
+//     to{background-position: 0 -302px;}
+//   }
+// }

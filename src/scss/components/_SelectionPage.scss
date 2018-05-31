@@ -1,0 +1,139 @@
+.SelectionPage {
+  // cursor: url('../assets/img/boule_de_crystal_1.png'),pointer;
+  position: relative;
+  width: 100vw;
+  height: 100vh; // background-color: grey;
+  font-family: SaiyanSans;
+  font-size: 80px;
+  display: flex;
+  &-containerTitle {
+    margin-left: 22%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 10;
+    &-text {
+      text-shadow: 0 0 2px #FFFFFF;
+    }
+  } // Container Goku //
+  &-containerGoku {
+    display: flex;
+    align-items: center; // justify-content: center;
+    background: url('../assets/img/Goku_Page_Selection.jpg')no-repeat top center;
+    width: 36%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    clip-path: polygon(0% 0%, 90% 0%, 98% 100%, 0% 100%);
+    &-title {
+      text-shadow: 0 0 2px #FFFFFF;
+      margin: 0 auto;
+      font-size: 52px;
+      &-link {
+        text-decoration: none;
+        color: #000;
+        text-shadow: 0 0 2px #FFFFFF;
+      }
+    }
+  }
+  &-containerGoku:hover {
+    // transform:scale(1.10);
+    filter: none;
+    transition: all 1s ease-out;
+    opacity: 0.9;
+    -webkit-transition: all 0.7s ease-in;
+    -webkit-transform: scale(1.007);
+    -ms-transition: all 0.7s ease-in;
+    -ms-transform: scale(1.007);
+    -moz-transition: all 0.7s ease-in;
+    -moz-transform: scale(1.007);
+    transition: all 0.7s ease-in;
+    transform: scale(1.007);
+    cursor: pointer;
+  } // Container Vegeta //
+  &-containerVegeta {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background: url('../assets/img/Vegeta_Page_Selection.jpg')no-repeat top center;
+    height: 100%;
+    width: 33%; // margin: 0 auto;
+    margin-left: 33%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    clip-path: polygon(0% 0%, 100% 0%, 91% 100%, 9% 100%);
+    &-title {
+      text-shadow: 0 0 2px #FFFFFF;
+      margin: 0 auto;
+      font-size: 52px;
+      &-link {
+        text-decoration: none;
+        color: #000;
+        text-shadow: 0 0 2px #FFFFFF;
+      }
+    }
+  }
+  &-containerVegeta:hover {
+    // transform:scale(1.10);
+    filter: none;
+    transition: all 1s ease-out;
+    opacity: 0.9;
+    -webkit-transition: all 0.7s ease-in;
+    -webkit-transform: scale(1.007);
+    -ms-transition: all 0.7s ease-in;
+    -ms-transform: scale(1.007);
+    -moz-transition: all 0.7s ease-in;
+    -moz-transform: scale(1.007);
+    transition: all 0.7s ease-in;
+    transform: scale(1.007);
+    cursor: pointer;
+  } // Container Freezer //
+  &-containerFreezer {
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    background-color: #FAFAFA;
+    background: url('../assets/img/Freezer_Page_Selection.png')no-repeat right center;
+    background-size: cover;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 2% 100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    margin-left: 35%;
+    height: 100%;
+    width: 37%;
+    &-title {
+      text-shadow: 0 0 40px #FFFFFF;
+      margin: 0 auto;
+      font-size: 52px;
+      &-link {
+        text-decoration: none;
+        color: #000;
+        text-shadow: 0 0 2px #FFFFFF;
+      }
+    }
+  }
+  &-containerFreezer:hover {
+    // transform:scale(1.10);
+    filter: none;
+    transition: all 1s ease-out;
+    opacity: 0.9;
+    -webkit-transition: all 0.7s ease-in;
+    -webkit-transform: scale(1.007);
+    -ms-transition: all 0.7s ease-in;
+    -ms-transform: scale(1.007);
+    -moz-transition: all 0.7s ease-in;
+    -moz-transform: scale(1.007);
+    transition: all 0.7s ease-in;
+    transform: scale(1.007);
+    cursor: pointer;
+  }
+}

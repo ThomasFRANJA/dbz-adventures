@@ -1,0 +1,12 @@
+.sectionSecondGoku {
+  visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; // margin: 0 auto;
+  &-description {
+    margin: 0 auto;
+    font-size: 100px;
+    font-family: SaiyanSans;
+  }
+}

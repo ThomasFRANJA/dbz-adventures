@@ -1,0 +1,16 @@
+.sectionRetry {
+  // width: 100vw;
+  height: 100vh;
+  background: url('../assets/img/background_section_retry.svg') no-repeat center;
+  background-size: cover;
+  &-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 25%;
+    &-title {
+      font-size: 52px;
+      font-family: SaiyanSans;
+      text-shadow: 0 0 3px #FFFFFF;
+    }
+  }
+}
