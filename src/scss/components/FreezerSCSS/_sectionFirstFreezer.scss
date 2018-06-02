@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+  &-container {
+    position: absolute;
+    z-index: 10;
+  }
+}
+
+.sectionFirstFreezer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 25vh);
+  &-container1 {
+    background: url('../../assets/img/Freezer_Cell.jpg') no-repeat center;
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    grid-column: 1/7;
+    grid-row: 1/5;
+    -webkit-clip-path: polygon(0 0, 99% 0, 98% 100%, 0 100%);
+    clip-path: polygon(0 0, 99% 0, 98% 100%, 0 100%);
+  }
+  &-container2 {
+    // position: absolute;
+    // visibility: hidden;
+    background-color: black;
+    background-size: 100% 100%;
+    grid-column: 7/13;
+    grid-row: 1/5;
+    -webkit-clip-path: polygon(2% 0, 99% 0, 100% 100%, 0 100%);
+    clip-path: polygon(2% 0, 99% 0, 100% 100%, 0 100%);
+    ;
+  }
+}

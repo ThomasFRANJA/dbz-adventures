@@ -13,4 +13,37 @@
       text-shadow: 0 0 3px #FFFFFF;
     }
   }
+  &-button {
+    padding-top: 15px;
+    text-align: center;
+    color: #F2F2F2;
+    opacity: 0.8;
+    border-radius: 9px #020202;
+    &-container {
+      padding: 20px;
+    }
+    &-yes {
+      width: 90px;
+      height: 30px;
+      font-family: SaiyanSans;
+      background-color: #010101;
+      border-color: #010101;
+      font-size: 1.4rem;
+      color: #F2F2F2;
+      opacity: 0.8;
+      cursor: pointer;
+    }
+    &-no {
+      width: 90px;
+      height: 30px;
+      margin-left: 30px;
+      font-family: SaiyanSans;
+      font-size: 1.4rem;
+      border-color: #010101;
+      background-color: #010101;
+      color: #F2F2F2;
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
 }
