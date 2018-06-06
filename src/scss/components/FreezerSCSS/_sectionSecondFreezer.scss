@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 25vh);
+  margin-bottom: 10px;
   &-container1 {
     background: url('../assets/img/freezer_boule_de_crystale.png') no-repeat;
     background-size: 100% 100%;
@@ -29,11 +30,11 @@
     margin-bottom: 5px;
   }
   &-container3 {
-    background: url('../assets/img/boules_de_crystale.png') no-repeat;
-    background-size: 100% 100%;
-    grid-column: 1/3;
+    background: url('../assets/img/boules_de_crystale.png') no-repeat center;
+    background-size: cover;
+    grid-column: 1/6;
     grid-row: 3/5;
-    clip-path: polygon(0 0, 100% 0%, 94.5% 100%, 0% 100%);
+    clip-path: polygon(0 0, 92% 0%, 84.5% 100%, 0% 100%);
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -41,19 +42,19 @@
     -o-filter: grayscale(100%);
   }
   &-container4 {
-    background: url('../assets/img/freezerrecherche2.png') no-repeat;
-    background-size: 100% 100%;
-    grid-column: 3/6;
-    grid-row: 3/5;
-    clip-path: polygon(3% 0, 86.7% 0%, 74.7% 100%, 0% 100%);
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
+    // background: url('../assets/img/freezerrecherche2.png') no-repeat;
+    // background-size: 100% 100%;
+    // grid-column: 3/6;
+    // grid-row: 3/5;
+    // clip-path: polygon(3% 0, 86.7% 0%, 74.7% 100%, 0% 100%);
+    // filter: grayscale(100%);
+    // -webkit-filter: grayscale(100%);
+    // -moz-filter: grayscale(100%);
+    // -ms-filter: grayscale(100%);
+    // -o-filter: grayscale(100%);
   }
   &-container5 {
-    background: url('../assets/img/freezer_recherche_3.png') no-repeat;
+    background: url('../assets/img/Zteam.jpg') no-repeat;
     background-size: 100% 100%;
     grid-column: 5/13;
     grid-row: 3/4;
@@ -70,7 +71,7 @@
     background-color: #000000;
     grid-column: 5/13;
     grid-row: 4/5;
-    clip-path: polygon(6.8% 0, 100% 0%, 100% 100%, 4.2% 100%);
+    clip-path: polygon(6.7% 0, 100% 0%, 100% 100%, 4.2% 100%);
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -85,7 +86,7 @@
       text-shadow: 0 0 2px #020202;
       padding-left: 10%;
       margin: auto;
-      top: 50%;
+      top: 35%;
       bottom: 0;
     }
   }

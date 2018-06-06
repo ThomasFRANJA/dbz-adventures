@@ -1,0 +1,32 @@
+.sectionThirdGoku-Page2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 25vh);
+  font-size: 42px;
+  font-family: SaiyanSans;
+  color: #FFFFFF;
+  &-container1 {
+    background-color: #000000;
+    grid-column: 7/13;
+    grid-row: 1/5;
+    clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 6% 100%);
+    padding-top: 18rem;
+    padding-left: 7rem;
+    padding-right: 2rem;
+    &-description {
+      text-align: center;
+    }
+  }
+  &-container2 {
+    background: url('https://media.giphy.com/media/3rgXBwsbbD6zKG2nkY/giphy.gif') no-repeat;
+    background-size: cover;
+    grid-column: 1/9;
+    grid-row: 1/5;
+    clip-path: polygon(0% 0%, 87% 0%, 78% 100%, 0% 100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+  }
+}

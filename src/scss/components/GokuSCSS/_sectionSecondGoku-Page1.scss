@@ -1,0 +1,12 @@
+.sectionSecondGoku {
+  &-Page1 {
+    background: url('../assets/img/Goku_acheve_vegeta_01.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+  }
+}
