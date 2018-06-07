@@ -1,0 +1,30 @@
+.sectionFirstGoku-Page3 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 25vh);
+  font-size: 42px;
+  font-family: SaiyanSans;
+  color: #f3f3f3;
+  filter: grayscale(100%);
+  margin-bottom: 10px;
+  &-container1 {
+    background: url('../assets/img/goku_death.jpg') no-repeat center;
+    background-size: cover;
+    grid-column: 1/8;
+    grid-row: 1/5;
+    clip-path: polygon(0% 0%, 92% 0%, 85% 100%, 0% 100%);
+  }
+  &-container2 {
+    background-color: #000000;
+    background-size: cover;
+    grid-column: 7/13;
+    grid-row: 1/5;
+    padding-left: 10rem; // padding-right: 3rem;
+    padding-top: 25rem;
+    clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 1% 100%);
+    &-description {
+      text-align: center;
+      width: 80%;
+    }
+  }
+}

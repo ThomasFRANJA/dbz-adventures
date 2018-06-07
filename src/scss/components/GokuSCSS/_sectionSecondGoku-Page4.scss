@@ -1,0 +1,28 @@
+.sectionSecondGoku-Page4 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 25vh);
+  font-size: 42px;
+  font-family: SaiyanSans;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  &-container1 {
+    grid-column: 1/8;
+    grid-row: 1/5;
+    background: url('../assets/img/Freezer_arrive.jpg') no-repeat top center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 85% 0%, 85% 100%, 0% 100%);
+  }
+  &-container2 {
+    grid-column: 7/13;
+    grid-row: 1/5;
+    background-color: #000000;
+    clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding-top: 25rem;
+    padding-right: 5rem;
+    padding-left: 5rem; // padding-left: 5rem;
+    &-description {
+      text-align: center;
+    }
+  }
+}

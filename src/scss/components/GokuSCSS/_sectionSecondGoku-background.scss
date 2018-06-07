@@ -1,0 +1,62 @@
+  // Début combat sectionThirdGoku-steps //
+  .sectionSecondGoku-background {
+        width: 100vw;
+        height: 100vh;
+        background: url('../assets/img/arene_budokai.jpg') no-repeat center;
+        background-size: cover;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      &-stepsGoku {
+        position: relative;
+        display: inline-block;
+        margin-top: 55vh;
+        margin-left: 25vw;
+      }
+      &-stepsGoku::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 776px;
+        height: 243px;
+        background: url('../assets/imgSprite/goku_steps5.png'); // transition: background 2s steps(25), infinite;
+      }
+      &-stepsGoku::after {
+        animation: goku 1.5s steps(29) infinite; // transition: all 4s ease;
+      } // Steps Vegeta //
+      &-stepsVegeta {
+        position: relative;
+        display: inline-block;
+        margin-top: 55vh;
+        margin-left: 45vw; // right: 0;
+        // margin-left: 25vw;
+      }
+      &-stepsVegeta::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 232px;
+        height: 228px;
+        background: url('../assets/imgSprite/vegeta_steps3.png'); // transition: background 2s steps(25), infinite;
+      }
+      &-stepsVegeta::after {
+        animation: Vegeta 4s steps(12) infinite; // transition: all 4s ease;
+      }
+      @keyframes goku {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 0 -7162px;
+        }
+      }
+      @keyframes Vegeta {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 0 -2720px;
+        }
+      }
+  } // Fin combat sectionThirdGoku-steps //

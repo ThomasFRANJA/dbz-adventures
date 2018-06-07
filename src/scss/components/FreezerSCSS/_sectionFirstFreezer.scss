@@ -10,28 +10,104 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 25vh);
+  margin-bottom: 10px;
   &-container1 {
-    background: url('../../assets/img/Freezer_Cell.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background: url('../../assets/img/cell_face.jpg') no-repeat right center;
+    background-size: cover;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    grid-column: 1/7;
+    grid-column: 8/13;
     grid-row: 1/5;
-    -webkit-clip-path: polygon(0 0, 99% 0, 98% 100%, 0 100%);
-    clip-path: polygon(0 0, 99% 0, 98% 100%, 0 100%);
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 1% 100%);
   }
   &-container2 {
     // position: absolute;
     // visibility: hidden;
+    background: url('../../assets/img/freezer_face.jpg') no-repeat center;
+    background-size: 100% 100%;
+    grid-column: 1/9;
+    grid-row: 1/3;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    padding-top: 13rem;
+    clip-path: polygon(0% 0%, 93% 0%, 90% 99%, 0% 99%);
+  }
+  &-container3 {
+    // position: absolute;
+    // visibility: hidden;
+    position: relative;
+    background-color: #000;
+    background-size: cover;
+    grid-column: 1/9;
+    grid-row: 3/5;
+    clip-path: polygon(0% 1%, 90% 1%, 87.3% 100%, 0% 100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    &-description {
+      width: 95%;
+      top: 50%;
+      position: absolute;
+      font-size: 42px;
+      font-family: SaiyanSans;
+      text-align: center;
+      color: #f3f3f3;
+      text-shadow: 0 0 2px #020202;
+      bottom: 0;
+    }
+  }
+}
+
+.sectionFirstFreezer-DeathFreezer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 25vh);
+  &-container1 {
     background-color: black;
     background-size: 100% 100%;
-    grid-column: 7/13;
-    grid-row: 1/5;
-    -webkit-clip-path: polygon(2% 0, 99% 0, 100% 100%, 0 100%);
-    clip-path: polygon(2% 0, 99% 0, 100% 100%, 0 100%);
-    ;
+    grid-column: 1/13;
+    grid-row: 1/2;
+    margin-bottom: 5px;
+    &-description {
+      text-align: center;
+      padding-top: 100px;
+      font-size: 3.1rem;
+      font-family: SaiyanSans;
+      color: #f3f3f3;
+      text-shadow: 0 0 2px #020202;
+    }
+  }
+  &-container2 {
+    background: url('../../assets/img/cell_absorbe_freezer.jpg') no-repeat center;
+    background-size: 100% 100%;
+    grid-column: 1/13;
+    grid-row: 2/5;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+  }
+  &-container2:hover {
+    filter: none;
+    transition: all 1s ease-out;
+    opacity: 0.9;
+    -webkit-transition: all 0.7s ease-in;
+    -webkit-transform: scale(1.007);
+    -ms-transition: all 0.7s ease-in;
+    -ms-transform: scale(1.007);
+    -moz-transition: all 0.7s ease-in;
+    -moz-transform: scale(1.007);
+    transition: all 0.7s ease-in;
+    transform: scale(1.007);
   }
 }

@@ -1,0 +1,82 @@
+.sectionVegetaBelieve {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 25vh);
+  margin-bottom: 5px;
+  &-container {
+    position: relative;
+    background: url('../assets/img/Vegeta_ko_4.png') no-repeat left center;
+    background-size: 100% 100%;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    margin-bottom: 5px;
+    clip-path: polygon(0% 0%, 94% 0%, 90% 100%, 0% 100%);
+  }
+  &-container1 {
+    background: url('../assets/img/Vegeta_ko_3.png') no-repeat center;
+    background-size: cover;
+    grid-column: 5/10;
+    grid-row: 1/3;
+    margin-bottom: 5px;
+    clip-path: polygon(16.3% 0%, 77.7% 0%, 81% 100%, 12.2% 100%);
+  }
+  &-container2 {
+    background: url('../assets/img/Goku_vs_Vegeta.png') no-repeat center;
+    background-size: cover;
+    grid-column: 9/13;
+    grid-row: 1/3;
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 4% 100%);
+    filter: grayscale(100%);
+    margin-bottom: 5px;
+  }
+  &-container3 {
+    background: url('../assets/img/Vegeta_ko_5.png') no-repeat center;
+    background-size: 100% 100%;
+    grid-column: 1/6;
+    grid-row: 3/4;
+    clip-path: polygon(0% 2%, 90% 2%, 88% 98%, 0% 98%);
+  }
+  &-container4 {
+    background: url('../assets/img/Vegeta_ko_2.png') no-repeat center;
+    background-size: 100% 100%;
+    grid-column: 5/10;
+    grid-row: 3/4;
+    clip-path: polygon(12% 0%, 81% 0%, 83% 98%, 10% 98%);
+    margin-top: 5px;
+  }
+  &-container5 {
+    background: url('../assets/img/Vegeta_ko.png') no-repeat center;
+    background-size: 100% 100%;
+    grid-column: 9/13;
+    grid-row: 3/4;
+    clip-path: polygon(4% 2%, 100% 2%, 100% 100%, 6.5% 98%);
+  }
+  &-container6 {
+    background: url('../assets/img/Vegeta_ko_6.png') no-repeat center;
+    background-size: 100% 100%;
+    grid-column: 9/13;
+    grid-row: 4/5;
+    clip-path: polygon(7% 2%, 100% 2%, 100% 100%, 9% 100%);
+  }
+  &-container7 {
+    position: relative;
+    background-color: #000;
+    background-size: cover;
+    grid-column: 1/10;
+    grid-row: 4/5;
+    clip-path: polygon(0% 2%, 90.6% 2%, 91.6% 100%, 0% 100%);
+    filter: grayscale(100%);
+    &-description {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      padding-left: 5%;
+      font-size: 42px;
+      font-family: SaiyanSans;
+      text-align: center;
+      color: #f2f2f2;
+      text-shadow: 0 0 4px #020202;
+      bottom: 0;
+    }
+  }
+}
