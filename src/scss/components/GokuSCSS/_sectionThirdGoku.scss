@@ -5,6 +5,7 @@
   font-size: 42px;
   font-family: SaiyanSans;
   color: #FFFFFF;
+  margin-bottom: 10px;
   &-container1 {
     background-color: #000000;
     grid-column: 1/13;
@@ -45,6 +46,7 @@
   height: 100vh;
   background: url('../assets/img/background_section_retry.svg') no-repeat center;
   background-size: cover;
+  margin-top: 10px;
   &-content {
     display: flex;
     justify-content: center;
